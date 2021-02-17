@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    border: 2px solid red;
+    color: #00a1ab;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.subhead{
+    border: 2px solid green;
+    font-size: 1.3125rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.plan{
+    border: 2px solid yellow;
+    background: skyblue;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.plan_title{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.plan_price{
+    border: 2px solid black;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.plan_price span{
+    display: block;
+    font-size: 1.5625rem;
+    font-weight: 300;
+}
+
+.plan_description{
+    color: white;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.plan_button{
+    text-align: center;
+    background: white;
+    color: #4e4e4e;
+    text-decoration: none;
+    padding: 0.5em 0.75em;
+    border-radius: 0.25em;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
